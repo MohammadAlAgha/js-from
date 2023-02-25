@@ -15,8 +15,9 @@ function store() {
   if (password.value.match(validP) && email.value.match(validE)) {
     users.emails += email.value;
     users.passwords += password.value;
+    window.alert("Email & Password are saved. Press next");
   } else {
-    window.alert("Invalid");
+    window.alert("Invalid Email or Password");
   }
 
   console.log(users);
