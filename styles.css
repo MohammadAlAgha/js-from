@@ -126,7 +126,7 @@ a {
   justify-content: center;
 }
 
-.merged {
+.result {
   padding: 20px;
   height: 65%;
   width: 70%;
@@ -139,4 +139,14 @@ a {
   color: aliceblue;
   font-size: 70px;
   margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+label {
+  color: aliceblue;
+  font-size: 30px;
+}
+
+.palidrome {
+  width: 20%;
 }

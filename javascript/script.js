@@ -1,8 +1,8 @@
 const password = document.getElementById("password");
 const email = document.getElementById("email");
 const submit = document.getElementById("submit");
-var validP = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}$/;
-var validE = /^([a-zA-Z0-9\.]+)@([a-zA-Z]+).([a-z]+).([a-z]+)?$/;
+let validP = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}$/;
+let validE = /^([a-zA-Z0-9\.]+)@([a-zA-Z]+).([a-z]+).([a-z]+)?$/;
 
 users = {
   emails: "",
