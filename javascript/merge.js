@@ -1,4 +1,4 @@
-let number = document.getElementById("number");
+const number = document.getElementById("number");
 
 let promtNum = prompt("Enter a Number to arrange :)");
 let toMerge = [];
