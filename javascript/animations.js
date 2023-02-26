@@ -49,5 +49,5 @@ rocket.addEventListener("click", function () {
     rocket.style.margin = timePassed / 10 + "px";
 
     if (timePassed > 4000) clearInterval(timer);
-  }, 1);
+  });
 });

@@ -46,7 +46,9 @@ img {
 
 h3 {
   font-size: 40px;
-  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .space {
@@ -64,4 +66,41 @@ h3 {
   justify-content: end;
   position: relative;
   cursor: pointer;
+}
+.info {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info :nth-child(1) {
+  background-color: rgb(64, 18, 124);
+  height: 33%;
+  width: 100%;
+}
+
+.info :nth-child(2) {
+  background-color: rgb(163, 39, 39);
+  height: 33%;
+  width: 100%;
+}
+
+.info :nth-child(3) {
+  background-color: rgb(64, 18, 124);
+  height: 33%;
+  width: 100%;
+}
+
+p {
+  background-color: rgb(163, 39, 39);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  font-size: xx-large;
+  width: 100%;
 }
