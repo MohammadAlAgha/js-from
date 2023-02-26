@@ -77,8 +77,5 @@ function mergeSort(arr, l, r) {
 
 mergeSort(toMerge, 0, toMerge.length - 1);
 let num = toMerge.join("");
-// for (let i = 0; i < toMerge.length; i++) {
-//   num.push(toMerge[i]);
-// }
 
 number.innerHTML = `LOOK!!! I've arranged all your numbers: ${num}`;

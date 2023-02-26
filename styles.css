@@ -150,3 +150,16 @@ label {
 .palidrome {
   width: 20%;
 }
+
+h1 {
+  margin: 10px;
+  color: aliceblue;
+}
+
+.userInput {
+  width: 50%;
+}
+
+.course {
+  font-size: 20px;
+}
