@@ -10,7 +10,7 @@ done.addEventListener("click", () => {
 function prime(birth) {
   let years = year - birth;
   let isPrime = true;
-  for (let i = 0; i < years / 2; i++) {
+  for (let i = 2; i < years / 2; i++) {
     if (years % i == 0) {
       isPrime = false;
     }
