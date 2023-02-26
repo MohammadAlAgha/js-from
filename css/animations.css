@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: all;
+  src: url(../assets/print-clearly/print_clearly_tt.ttf);
+}
+
+@font-face {
+  font-family: bold;
+  src: url(../assets/print-clearly/print_bold_tt.ttf);
+}
+
+body {
+  font-family: all;
+}
+
+img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background-color: rgb(29, 29, 83);
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.end {
+  background-color: aliceblue;
+  height: 50px;
+  color: rgb(0, 0, 0);
+  font-family: bold;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+h3 {
+  font-size: 40px;
+  margin: 20px;
+}

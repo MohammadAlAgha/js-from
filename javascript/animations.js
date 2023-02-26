@@ -1,6 +1,7 @@
 const ip = document.getElementById("ip");
 const home = document.getElementById("location");
 const sum = document.getElementById("sum");
+const end = document.getElementById("end");
 fetch("http://ip-api.com/json/?fields=61439")
   .then((response) => response.json())
   .then((data) => {
@@ -17,3 +18,23 @@ fetch("http://ip-api.com/json/?fields=61439")
     }
     sum.innerHTML = `Useless Note: The sum of the even numbers in your IP is ${counter} :)`;
   });
+
+window.addEventListener("scroll", () => {
+  const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+  const scrolled = window.scrollY;
+
+  if (Math.ceil(scrolled) === scrollable) {
+    alert("Use The button down to go back to the top.");
+  }
+});
+
+window.scroll = function () {
+  document.body.scrollTop > 0 || document.documentElement > 0
+    ? (end.style.display = "block")
+    : (end.style.display = "none");
+};
+
+end.addEventListener("click", () => {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+});
