@@ -6,6 +6,7 @@ for (let i = 0; i < promtNum.length; i++) {
   toMerge.push(promtNum[i]);
 }
 
+//Source: GeeksForGeeks
 // JavaScript program for Merge Sort
 
 // Merges two subarrays of arr[].
@@ -14,14 +15,26 @@ for (let i = 0; i < promtNum.length; i++) {
 function merge(arr, l, m, r) {
   var n1 = m - l + 1;
   var n2 = r - m;
+  console.log(l);
+  console.log(m);
+  console.log(r);
+  console.log(n1);
+  console.log(n2);
 
   // Create temp arrays
   var L = new Array(n1);
   var R = new Array(n2);
+  console.log(L);
+  console.log(R);
 
   // Copy data to temp arrays L[] and R[]
   for (var i = 0; i < n1; i++) L[i] = arr[l + i];
   for (var j = 0; j < n2; j++) R[j] = arr[m + 1 + j];
+  console.log(L[i]);
+  console.log(R[j]);
+
+  console.log(arr[l + i]);
+  console.log(arr[m + 1 + j]);
 
   // Merge the temp arrays back into arr[l..r]
 

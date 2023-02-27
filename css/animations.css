@@ -3,6 +3,7 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -35,9 +36,9 @@ img {
 }
 
 .end {
-  background-color: aliceblue;
+  background-color: rgb(163, 39, 39);
   height: 50px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-family: bold;
   border-radius: 20px;
   padding: 5px;
